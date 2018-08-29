@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
 
 *{
 	font-family: Audiowide;
@@ -54,19 +55,30 @@ nav ul li a:hover {
 }
 
 .box2{
-	background-image: url('../images/drums.png'); 
+  background-image: url('../images/drums.png'); 
+  background-size: 100%;    
+  width: 100%;
+  height: 110%;
+  top: 0;
+  position: relative;
+}
+
+.box3{
+	background-image: url('../images/piano.jpg'); 
 	background-size: 100%;    
 	width: 100%;
   height: 110%;
   top: 0;
+  position: relative;
 }
 
-.box3{
+.box4{
 	background-image: url('../images/bass.jpg'); 
 	background-size: 100%;   
 	width: 100%;
   height: 100%;
   top: 0;
+  position: relative;
 }
 
 footer{ 
@@ -92,3 +104,9 @@ footer a{
 	margin: 0px 100px;
 }
 
+.details p{
+	position: unset;
+	color: white;
+	font-size: 18px;
+	font-family: 'Archivo Black';
+}

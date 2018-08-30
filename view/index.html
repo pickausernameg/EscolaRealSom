@@ -4,16 +4,20 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Home</title>
+	<link rel="shortcut icon"  href="../assets/images/favicon.ico" />
 	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
-	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="../assets/js/scrollEffect.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="../assets/js/scrollEffect.js"></script>
+		<script src="../assets/js/SideBar.js"></script>
 
 </head>
 <body>
-
-	<div id="main">
+	<!-- Aqui é o menu no desktop -->
+	<div id="main" class="hidden-xs">
 		<nav>
 			<ul>
 				<li><a href="#boxHome">Home</a></li>
@@ -23,6 +27,21 @@
 		    	<li><a href="#boxContact">Contato</a></li>
 			</ul>
 		</nav>
+	</div>
+
+	<!-- Aqui é o menu no mobile -->
+	<div id="sidebar" class="hidden-lg" style="z-index: 999">
+		<div class="toggle-btn" onclick="toggleSideBar()">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<ul>
+			<li><a href="#boxHome">Home</a></li>
+			<li><a href="#boxAbout">Sobre</a></li>
+	  	<li><a href="#boxClass">Aulas</a></li>
+	  	<li><a href="#boxContact">Contato</a></li>
+		</ul>
 	</div>
 
 <div class="box1" id="boxHome">

@@ -6,32 +6,18 @@ thinking if the number of boxes increase */
 	$(window).scroll(function(){
 
 		// Set scroll to first box
-		if ($(this).scrollTop() > 670) {
+		if ($(this).scrollTop() > 1) {
 			$(".box2").css({"background-attachment" : "fixed"});
-			$(".details").css({"position" : "fixed", "top" : "120px", "padding" : "0px 100px"})
-		}
-
-		else {
-			if ($(this).scrollTop() < 800) {
-				$(".box2").css({"background-attachment" : "inherit"})
-				$(".details").css({"position" : "unset", "padding" : "120px 100px 0px"})
-			}	
+			$(".box3").css({"background-attachment" : "fixed"});
 		}
 	})
 
-	$(window).scroll(function(){
+// Add active link class
+  $("a").click(function() {
+  	$("a").removeClass("active");
+    $(this).addClass("active");
 
-		// Set scroll to second box
-		if ($(this).scrollTop() > 1410) {
-			$(".box3").css({"background-attachment" : "fixed"})
-		}
-
-		else {
-			if ($(this).scrollTop() < 3000) {
-				$(".box3").css({"background-attachment" : "inherit"})		
-			}	
-		}
-	})
+  });
 
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {

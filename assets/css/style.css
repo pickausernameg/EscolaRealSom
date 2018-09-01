@@ -10,7 +10,6 @@ body {
     height: 100%;
     margin:0px; 
     padding:0px;
-    
 }
 
 header {
@@ -37,6 +36,10 @@ nav ul li a {
 
 nav ul li a:hover {
 	border-bottom: 1px solid #00599e;
+	text-decoration: none;
+}
+
+nav ul li a:focus{
 	text-decoration: none;
 }
 
@@ -117,6 +120,12 @@ footer a{
   border-bottom: 1px solid #00599e;
 }
 
+.NavImg{
+	position: relative; 
+	top: 10px;
+}
+
+/*Mobile CSS*/
 @media screen and (max-width: 600px){
 
 	.box1{

@@ -125,6 +125,85 @@ footer a{
 	top: 10px;
 }
 
+.Pic_Paulo{
+	background-image:url('../images/paulo_baixo.jpg');
+  height: 21%;
+  background-size: 150px;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-position-x: -10px;
+}
+
+.Pic_Luanda{
+	background-image:url('../images/luanda_canto.jpg');
+  height: 21%;
+  background-size: 150px;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-position-x: -30px;
+}
+
+.Pic_Marina{
+	background-image:url('../images/marina_piano.jpg');
+  height: 21%;
+  background-size: 150px;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-position-x: -30px;
+}
+
+.Pic_Allan{
+	background-image:url('../images/allan_bateria.jpg');
+  height: 21%;
+  background-size: 150px;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-position-x: -30px;
+}
+
+.TeacherLine{
+	padding: 130px 30px 0px; 
+	text-align: center;
+}
+
+.TeacherCard{
+	background-color: #ffb76d3b; 
+	height: 480px; 
+	border-radius: 30px; 
+	padding: 10px;
+}
+
+.TeacherName{
+	color: white;
+	font-size: 20px;
+}
+
+.Instrument{
+	color: white;
+}
+
+.TeacherDesc{
+	word-break: break-word;
+	color: white;
+	padding-top: 10px;
+}
+
+.KnowMore{
+	padding: 30px;
+  font-size: 30px; 
+  text-align: center;
+}
+
+.KnowMore a{
+	color: #ec8603;
+}
+
+.KnowMore a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+
 /*Mobile CSS*/
 @media screen and (max-width: 600px){
 
@@ -198,6 +277,17 @@ footer a{
     height: 9px;
     background-color: #337ab7;
     margin: 6px 0px;
+	}
+
+	.TeacherCard{
+		min-width: 270px;
+		min-height: 530px;
+	}
+
+	.TeacherLine{
+		display: flex;
+		overflow-x: auto;
+		padding: 100px 30px 0px;
 	}
 
 }

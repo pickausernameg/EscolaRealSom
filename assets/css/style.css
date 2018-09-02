@@ -260,9 +260,16 @@ footer a{
 	#sidebar ul li{
 		list-style: none;
 		padding: 15px;
-		border-bottom: 2px solid #28609029;
 		font-size: 22px;
 		text-decoration: none;
+	}
+
+	#sidebar a{
+		text-decoration: none;
+	}
+
+	.activeSideMenu{
+		background-color: grey;
 	}
 
 	#sidebar .toggle-btn{
@@ -288,6 +295,12 @@ footer a{
 		display: flex;
 		overflow-x: auto;
 		padding: 100px 30px 0px;
+	}
+
+	.NavImg{
+    width: 150px;
+    position: relative;
+    right: 30px;
 	}
 
 }

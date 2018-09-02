@@ -13,8 +13,8 @@ thinking if the number of boxes increase */
 	})
 
 // Add active link class
-  $("a").click(function() {
-  	$("a").removeClass("active");
+  $(".HeaderLinks").click(function() {
+  	$(".HeaderLinks").removeClass("active");
     $(this).addClass("active");
 
   });

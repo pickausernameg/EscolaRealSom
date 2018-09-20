@@ -205,6 +205,31 @@ footer a{
 	color: white;
 }
 
+.ContFrames{
+	margin-top: 100px;
+}
+
+.ContVideo{
+	width: 380px;
+}
+
+.SmallText h2{
+	color: white;
+  border-bottom: 1px solid #f9555575;
+  width: 240px;
+  padding-bottom: 6px;
+}
+
+.SmallText p{
+	color: #dadada;
+	word-break: word-break;
+}
+
+.SmallText{
+  box-shadow: 19px 20px 14px 0px rgba(0, 0, 0, 0.3), 0px 0px 20px rgba(0, 0, 0, 0.1) inset;
+  border-radius: 22px;
+  margin-right: 20px;
+}
 
 /*Mobile CSS*/
 @media screen and (max-width: 762px){
@@ -318,6 +343,10 @@ footer a{
     width: 150px;
     position: relative;
     right: 30px;
+	}
+
+	.SmallText p{
+		color: white;
 	}
 
 }

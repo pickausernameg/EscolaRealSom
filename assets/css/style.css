@@ -49,13 +49,88 @@ nav ul li a:focus{
   width: 100%;
 }
 
+/*.James{
+	background-image: url('../images/James.png');
+  background-repeat: no-repeat;
+  background-position-y: 100px;
+  background-size: 500px;
+	-webkit-backface-visibility: hidden;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	animation: fadeIn infinite 24000ms;
+	animation-iteration-count: 1;
+}
+
+.Dave{
+	background-image: url('../images/Dave.png');
+  background-repeat: no-repeat;
+  background-position-y: 100px;
+  background-size: 740px;
+	-webkit-backface-visibility: hidden;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	animation: fadeIn infinite 24000ms;
+	animation-iteration-count: 1;
+	animation-delay: 16s;
+}
+
+.BBKing{
+	background-image: url('../images/bbking.png');
+  background-repeat: no-repeat;
+  background-position-y: 0px;
+  background-size: 580px;
+	-webkit-backface-visibility: hidden;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	animation: fadeIn infinite 24000ms;
+	animation-iteration-count: 1;
+	animation-delay: 32s;
+}
+
+@keyframes fadeIn{
+	0% {opacity: 0; left: -100px;}
+	20% {opacity: 0.1; left: -50px;}
+	100% {opacity: 0; left: 50px;}
+}*/
+
+.Heavy{
+	background-image: url('../images/heavy.png');
+  background-repeat: no-repeat;
+  background-position-y: 90px;
+  background-size: 540px;
+	-webkit-backface-visibility: hidden;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	animation: fadeIn 1500ms;
+	opacity: 0.82;
+	left: 0px;
+}
+
+@keyframes fadeIn{
+	from{
+		opacity: 0;
+		left: -100px;
+	}
+	to{
+		opacity: 0.8;
+		left: 0px;
+	}
+}
 .box1{
 	background-image: url('../images/guitar.jpg'); 
-	background-size: 150%;    
+	background-size: 100%;    
 	width: 100%;
   height: 100%;
   top: 0;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .box2{
@@ -267,6 +342,12 @@ footer a{
     background-position: -310px;
     min-height: 100%;
     height: auto;
+	}
+
+	.Heavy{
+		width: 130%;
+		background-size: 370px;
+		background-position-y: 180px; 
 	}
 
 	.details{

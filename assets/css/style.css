@@ -32,6 +32,7 @@ nav ul li {
 nav ul li a {
 	text-decoration: none;
 	color: #F58220;
+	transition: 200ms;
 }
 
 nav ul li a:hover {
@@ -109,18 +110,18 @@ nav ul li a:focus{
 	height: 100%;
 	animation: fadeIn 1500ms;
 	opacity: 0.82;
-	left: 0px;
+	left: 350px;
 	-webkit-backface-visibility: hidden;
 }
 
 @keyframes fadeIn{
 	from{
 		opacity: 0;
-		left: -100px;
+		bottom:	-540px;
 	}
 	to{
 		opacity: 0.8;
-		left: 0px;
+		bottom: 0px;
 	}
 }
 .box1{
@@ -174,7 +175,8 @@ footer{
 
 footer i{
 	font-size: 40px;
-  color: white;			
+  color: white;	
+  transition: 200ms;		
 }
 
 footer i:hover{
@@ -282,7 +284,7 @@ footer a{
 }
 
 .ContFrames{
-	margin-top: 50px;
+	margin-top: 100px;
 }
 
 .ContVideo{
@@ -306,6 +308,26 @@ footer a{
   border-radius: 22px;
   margin-right: 20px;
 }
+
+.SmallMore{
+  box-shadow: 5px 10px 5px 0px rgba(0, 0, 0, 0.3), 0px 0px 20px rgba(0, 0, 0, 0.1) inset;
+  border-radius: 22px;
+	text-align: center;
+}
+
+.SmallMore a{
+	font-size: 30px;
+	color: white;
+  padding-bottom: 6px;
+  transition: 200ms;
+}
+
+.SmallMore a:hover{
+  color: #ff5555;
+  text-decoration: none;
+}
+
+
 
 /*Mobile CSS*/
 @media screen and (max-width: 762px){
@@ -346,10 +368,12 @@ footer a{
 
 	.Heavy{
 		width: 100%;
+		left: 0px;
+		height: 100%;
 		background-size: 100%;
 		background-position-y: 180px; 
 		-webkit-backface-visibility: hidden;
-		position: absolute;
+		position: absolute !important;
 	}
 
 	.details{

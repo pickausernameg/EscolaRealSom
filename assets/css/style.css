@@ -103,14 +103,14 @@ nav ul li a:focus{
 .Heavy{
 	background-image: url('../images/heavy.png');
   background-repeat: no-repeat;
-  background-position-y: 100px;
+  background-position-y: bottom;
   background-size: 440px;
 	position: fixed;
 	width: 100%;
 	height: 100%;
 	animation: fadeIn 1500ms;
 	opacity: 1;
-	left: 350px;
+	left: 570px;
 	-webkit-backface-visibility: hidden;
 }
 

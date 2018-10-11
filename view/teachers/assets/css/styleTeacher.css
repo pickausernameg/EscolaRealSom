@@ -1,0 +1,133 @@
+html, 
+body {
+  height: 100%;
+  margin:0px; 
+  padding:0px;
+}
+
+body{
+  background-image: url('../images/background.png');
+  background-size: auto;
+}
+
+.Paulo{
+	text-align: right;
+	padding: 60px;
+}
+
+.bassist{
+	background-image: url(../images/bass.jpg);
+	background-size: 80%;
+	background-repeat: no-repeat;
+	height: 100%;
+	background-position-y: -95px;
+	top: -450px;
+}
+
+.Luanda{
+	text-align: right;
+	padding: 60px;
+}
+
+.operaSinger{
+	background-image: url(../images/singer.jpg);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position-y: 45px;
+	top: -450px;
+}
+
+.Allan{
+	text-align: right;
+	padding: 60px;
+}
+
+.drummer{
+	background-image: url(../images/drummer.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position-y: 80px;
+	top: -450px;
+}
+
+.Marina{
+	text-align: right;
+	padding: 60px;
+}
+
+.piano{
+	background-image: url(../images/piano.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position-y: 80px;
+	top: -450px;
+	right: -50px;
+}
+
+@media screen and (max-width: 762px){
+	body{
+    background-position-x: -300px;
+	}
+
+	.Paulo{
+		padding: 50px 20px;
+	}
+
+	.Paulo iframe{
+    height: 175px;
+    width: 310px;
+	}
+
+	.bassist{
+		top: 0px;
+		height: 50%;
+	}
+
+	.Luanda{
+		padding: 50px 20px;
+	}
+
+	.Luanda iframe{
+    height: 175px;
+    width: 310px;
+	}
+
+	.operaSinger{
+		top: 0px;
+		height: 60%;
+	}
+
+	.Allan{
+		padding: 50px 20px;
+	}
+
+	.Allan iframe{
+    height: 175px;
+    width: 310px;
+	}
+
+	.drummer{
+		top: 0px;
+		height: 60%;
+		background-position-x: 50px;
+	}
+
+	.Marina{
+		padding: 50px 20px;
+	}
+
+	.Marina iframe{
+    height: 175px;
+    width: 310px;
+	}
+
+	.piano{
+		top: 0px;
+		height: 60%;
+		background-position-x: 50px;
+	}
+
+}
